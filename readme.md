@@ -33,12 +33,13 @@ make
 st-flash write build/firmware.bin 0x8000000
 ```
 
-## 目录结构（示例）
+## 目录结构
 - src/           : 源代码
 - inc/           : 头文件
 - hal/           : HAL 层实现或适配代码
 - board/         : 板级配置
-- Makefile 或 CMakeLists.txt
+- CMakeLists.txt : CMake清单
+- HAL_0_BlinkingLED.ioc ： STM32CubeMX配置文件
 
 ## 许可
 本仓库采用 MIT License。
